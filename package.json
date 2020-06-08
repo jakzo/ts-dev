@@ -1,0 +1,41 @@
+{
+  "name": "@jakzo/ts-dev",
+  "version": "0.0.1",
+  "description": "Typescript dev loop in a box.",
+  "main": "./dist/index.js",
+  "keywords": [
+    "Typescript",
+    "dev"
+  ],
+  "author": "Jack Field <jack@jf.id.au>",
+  "license": "MIT",
+  "bin": {
+    "ts-dev": "./dist/bin/ts-dev.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "yarn build -w",
+    "example": "node --inspect ./dist/bin/ts-dev.js"
+  },
+  "dependencies": {
+    "optionator": "^0.9.1",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.11",
+    "typescript": "^3.9.3"
+  },
+  "repository": {
+    "directory": "src/packages/standalone/ts-dev",
+    "type": "git",
+    "url": "git@bitbucket.org:atlassian/incredible-monorepo.git"
+  },
+  "homepage": "https://bitbucket.org/atlassian/incredible-monorepo/src/master/src/packages/standalone/ts-dev",
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ],
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts"
+}

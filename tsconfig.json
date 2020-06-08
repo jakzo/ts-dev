@@ -1,0 +1,49 @@
+{
+    "include": [
+        "./src/"
+    ],
+    "exclude": [
+        "**/node_modules/",
+        "**/dist/"
+    ],
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "lib": [
+            "es2017"
+        ],
+        "types": [
+            "node"
+        ],
+        "baseUrl": "./",
+        "rootDir": "./src/",
+        "outDir": "./dist/",
+        "resolveJsonModule": true,
+        "composite": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "declaration": true,
+        "importHelpers": true,
+        "removeComments": false,
+        "stripInternal": false,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "allowUnreachableCode": true,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "strictFunctionTypes": false,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": false
+    }
+}
